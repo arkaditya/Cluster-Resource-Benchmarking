@@ -10,7 +10,11 @@
 4. Implement Network Benchmarking 
 
 ####
-* RWS - Read Write Sequential * RWR - Read Write Random * WS - Write Sequential * RS - Read Sequential * RR - Read Random
+* RWS - Read Write Sequential 
+* RWR - Read Write Random 
+* WS - Write Sequential 
+* RS - Read Sequential 
+* RR - Read Random
 
 #### Results:
 ![CPU Benchmark](plots/cpuBenchmark1.PNG)

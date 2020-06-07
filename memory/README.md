@@ -1,14 +1,8 @@
 ## Compile
+=================
 
 make all
 
-CFLAGS = -O3 -Wall -lpthread
-
-all:
-	$(CC) $(CFLAGS) MyRAMBench.c -lm -pthread -o MyRAMBench
-clean:
-	rm -rf *.o MyRAMBench
-	
 #### PROGRAM DESC
 
 This program performs benchmarking for Memory by performing RWS and RWR operations on workload of 1GB using chunks of 1KB,1MB and 10MB.	
